@@ -8,7 +8,7 @@ Repository: file in cui tutti i cambiamenti sono oggetti a cambiamenti condivisi
 
  
 
-Comando per inizializzare una repository vuota in Bash: git init --> mi ttrovo ora sul branch principale = master 
+Comando per inizializzare un repository vuota in Bash: git init --> mi ttrovo ora sul branch principale = master 
 
 --> per eliminare un repository di git basta eliminare la cartella ma prima abilitare la visualizzazione dei dati nascosti. 
 
@@ -37,3 +37,5 @@ R.R.;
  
 
 Wt > add > staging > git Commit  
+
+ciao a tutti come state?
