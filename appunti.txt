@@ -1,0 +1,39 @@
+Git e GitHub 
+
+Git: sistema di versioning per codice condiviso in una repository remota --> github 
+
+ 
+
+Repository: file in cui tutti i cambiamenti sono oggetti a cambiamenti condivisi. 
+
+ 
+
+Comando per inizializzare una repository vuota in Bash: git init --> mi ttrovo ora sul branch principale = master 
+
+--> per eliminare un repository di git basta eliminare la cartella ma prima abilitare la visualizzazione dei dati nascosti. 
+
+Tenere lo status di dove siamo, cosa abbiamo fatto, cosa stiamo facendo = git status --> ci dice il branch in cui ci troviamo in questo momento. 
+
+Creare un nuovo documento nella cartella (con nuovo) e lo chiamo “fileProva.txt” --> file non tracciati quando aggiungiamo file alla repository, sono sconosciuti perché prima erano inesistenti --> aggiungiamo il file nel repository:  
+
+ 
+
+Working tree: directory associata al repository --> la cartella.git è la radice in cui c’è il nostro progetto --> ora abbiamo “fileProva.txt” --> per passare il file all’area di staging: git add nomefile oppure git add . 
+
+Area di staging: tiene i file pronti per fare commit, file funzionanti, che vanno bene > si possono salvare e imprimere sull’alberatura di git = cosa ho modificato, dove l’ho modificato e come, l’orario > 
+
+Commit: git Commit – m"messaggio”--> possiamo definire un messaggio in cui possiamo dare una descrizione di quello che abbiamo fatto --> in questo modo viene committato tutto lo staging --> se voglio committare solo un file, devo portare allo staging solo quel file e committare solo quello, un file alla volta da portare dal wt al staging.  
+
+R.R.; 
+
+-->sono sequenziali, per arrivare in uno devo aver fatto qualcosa dentro quello prima 
+
+--> dalla area di staging posso rimuovere dei file per riportarli al passaggio prima, al working tree: git restore - - staged nomefile oppure git restore - - staged . 
+
+--> per avere acesso ad una repository remota creata da un’altra persona, dopo aver accettato l’invito, crea la cartella con all’interno il repository remoto e lo stanzia in locale: git clone url_repository 
+
+--> e poi git pull aprendo la bush nella cartella che ho ricevuto --> per avere gli aggiornamenti della repos in remoto 
+
+ 
+
+Wt > add > staging > git Commit  
