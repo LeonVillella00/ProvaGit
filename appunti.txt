@@ -36,6 +36,14 @@ R.R.;
 
  
 
-Wt > add > staging > git Commit  
+
+
+
+repository remota
+
+
+
+
+
 
 ciao a tutti come state?
