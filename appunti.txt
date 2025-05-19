@@ -54,4 +54,10 @@ fetch: prende tutti i branch remoti e prende tutte le modifiche su altri branch 
 Stash: è un comando molto utile in Git che ti permette di salvare temporaneamente delle modifiche non ancora committate, per poter cambiare branch o fare altre operazioni senza perdere il lavoro in corso.
 --> lavora con last in / first out con degli indici da {0}
 
-git merge: i branch avranno tutti gli stessi file
+git merge = i branch avranno tutti gli stessi file:
+- posizionarsi sul branch meno aggiornato attraverso il comando
+    git checkout nomebranch
+- inserire il nome del branch da cui si importano gli aggiornamenti attraverso il comando
+    git merge nomebranchdaimportare
+
+sempre fare push alla fine di ogni commit
