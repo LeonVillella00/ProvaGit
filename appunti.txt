@@ -36,4 +36,8 @@ R.R.;
 
  
 
-Wt > add > staging > git Commit  
+Wt > add (area di stage) > git Commit  > repository remota
+
+
+
+
