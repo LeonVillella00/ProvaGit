@@ -46,4 +46,5 @@ repository remota
 
 
 
-ciao a tutti come state?
+Asia: ciao a tutti come state?
+Samu: Bene tu?
