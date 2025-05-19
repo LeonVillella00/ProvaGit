@@ -35,16 +35,18 @@ R.R.;
 --> e poi git pull aprendo la bush nella cartella che ho ricevuto --> per avere gli aggiornamenti della repos in remoto 
 
  
+Lavorare su più brach:
+- branch: corrisponde ad un flusso/ramo di sviluppo = 1 branch --> 1 ambiente di sviluppo
+    - main
+    - master
+    --> per lo sviluppo
 
+Comandi:
+ git branch = ci da tutti i branch locali
+ git branch -r = tutti i remoti
+ git branch -a = tutti sia remoti che locali 
+ head = previsione temporanea
+ git checkout -b nomebranch = cambi branch 
+ git switch 
 
-
-
-repository remota
-
-
-
-
-
-
-Asia: ciao a tutti come state?
-Samu: Bene tu?
+fetch: prende tutti i branch remoti e prende tutte le modifiche su altri branch remoti e portarli in locale
